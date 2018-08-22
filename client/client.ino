@@ -87,6 +87,7 @@ void sendRequest(String command, int maxTime, boolean debug) {
       while(esp8266.available())
       {
 
+
         
         // The esp has data so display its output to the serial window 
         char c = esp8266.read(); // read the next character.
